@@ -1,0 +1,1177 @@
+:root {
+
+    --text-color-headings: #232F3C;
+    --text-color-general: #333333;
+    --text-color-light-headings: #F5F6F9;
+    --text-color-light: #fff;
+    --elements-color-bright: #EF5B63;
+    ---primary-font-family: 'Rubik', sans-serif;
+    ---secondary-font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar-toggler-icon {
+    color: var(--text-color-general);
+}
+
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+}
+
+.gallery-section-flex {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 10vw);
+    grid-gap: 1.2rem;
+    margin-top: 5%;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gallery-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-4 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-6 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-7 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-8 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-9 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.gallery-item-10 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0;
+    padding: 0;
+}
+
+.partners-section {
+    padding-top: 10%;
+}
+
+.partners-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -8.5%;
+}
+
+.partners-section::before {
+    display: inline-block;
+    z-index: -1;
+    padding-left: 5%;
+    content: "НАШІ ПАРТНЕРИ";
+    color: var(--text-color-light-headings);
+    font-family: var(---primary-font-family);
+    font-size: 7em;
+    font-weight: 700;
+}
+
+
+
+/* Мои стили. Костины стили */
+
+/* ПЕРВЫЙ БЛОК. HEADER */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_right {
+    display: flex;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.icons {
+    margin-top: 30px;
+    margin-left: 370px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.phone_numbers {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.numbers {
+    text-transform: uppercase;
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #232F3C;
+}
+
+.btn {
+    background: #EF5B63;
+    border-radius: 10px;
+    width: 142px;
+    height: 40px;
+    margin-left: 30px;
+
+    border: none;
+    outline: none;
+
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.burger_menu {
+    margin-left: 20px;
+}
+
+a {
+    padding: 10px;
+}
+
+/* ВТОРОЙ БЛОК. MAIN BANNER */
+
+.main_banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.btns_main {
+    display: flex;
+}
+
+.main_info {
+    margin-top: 60px;
+}
+
+.btns_first {
+    margin-top: 40px;
+}
+
+.small_header {
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.header_one {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+.main_btn {
+    background: #EF5B63;
+    border-radius: 10px;
+    width: 250px;
+    height: 55px;
+    font-style: normal;
+    color: #FFFFFF;
+
+    border: none;
+    outline: none;
+}
+
+.btn_video {
+    margin-top: 42px;
+}
+
+.btn_icon {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+
+/* БЛОК 3. КУРСЫ */
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.course {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+.course_online {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #4FCC97;
+}
+
+.btns_second {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 100px;
+    padding: 5px;
+
+}
+
+.btn_online {
+    border: none;
+    outline: none;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 110px;
+    height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+
+.btn_online:hover {
+    border: none;
+    outline: none;
+    background: #EF5B63;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 110px;
+    height: 35px;
+    margin-right: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.Kyiv {
+    border: none;
+    outline: none;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 110px;
+    height: 35px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.Kyiv:hover {
+    border: none;
+    outline: none;
+    background: #EF5B63;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 110px;
+    height: 35px;
+
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF; 
+}
+
+.Zaphorizha {
+    border: none;
+    outline: none;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 110px;
+    height: 35px;
+    margin-left: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.Zaphorizha:hover {
+    border: none;
+    outline: none;
+    background: #EF5B63;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 110px;
+    height: 35px;
+
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF; 
+}
+
+
+/* Начинаю делать карточки!!!!!!! */
+
+
+/* Стили рядов */
+.cards_two_row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+.cards_one_row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+/* Стиль внутри карточки */
+
+.info_cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson {
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.seats {
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 8px;
+
+    color: #FFFFFF;
+}
+
+.name_course {
+    margin-top: 120px;
+}
+
+.name_course_up {
+    margin-top: 90px;
+}
+
+.name {
+    font-family: var(---primary-font-family);
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF
+}
+
+/* Стили Скарточек */
+.card_one {
+    width: 300px;
+    height: 230px;
+    background: #232F3C;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url("./Cards/Card_{FRONT-END}.svg");
+}
+
+.card_two {
+    width: 300px;
+    height: 230px;
+    background: #232F3C;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url("./Cards/Card_{IT\ Project\ Management}.svg");
+}
+
+.card_free {
+    width: 300px;
+    height: 230px;
+    background: #232F3C;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url("./Cards/Card_{UXUI\ WEB-DESIGN}.svg");
+}
+
+.card_four {
+    width: 300px;
+    height: 230px;
+    background: #232F3C;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url("./Cards/Card_{FRONT-END\ ADVANCED}.svg");
+}
+
+.contacts-section {
+    margin-top: 15%;
+    padding: 46px;
+    background-color: var(--text-color-general);
+    border-radius: 20px;
+    z-index: -1;
+
+ }
+
+ .map-button-1 {
+    background-color: var(--elements-color-bright);
+    padding: 12px 43px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: var(---secondary-font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+
+ }
+
+ .map-button-2 {
+    background-color: transparent;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    font-family: var(---secondary-font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+
+ }
+
+ .contacts-list {
+    padding: 30px 0px;
+    color:#fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+ }
+
+ .social-media-icons-bottom {
+    padding-top: 70px;
+ }
+
+
+ .bottom-form {
+    z-index: 2;
+    width: 350px;
+    height: 28em;
+    padding: 46px;
+    margin-top: 20px;
+    background-color: var(--text-color-headings);
+    border-radius: 20px;
+ }
+
+
+ .form-heading {
+    margin: 0px 0px 36px 0px;
+    font-family: var(---primary-font-family);
+    font-weight: 300;
+    font-size: 36px;
+    color: var(--text-color-light-headings);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+ }
+
+ .form-text {
+    font-family: var(---secondary-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color-light-headings);
+ }
+
+ ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+ }
+
+ .contact-form-bottom-field {
+    margin-top: 16px;
+    padding: 10px 5px 10px 5px;
+    width: 95%;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+ }
+
+ .contact-form-bottom-btn {
+    margin-top: 30px;
+    padding: 10px 5px 10px 5px;
+    width: 95%;
+    background: var(--elements-color-bright);
+    color: var(--text-color-light-headings);
+    border-radius: 10px;
+    border: none;
+    font-family: var(---primary-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .mobile-container {
+    display: none;
+}
+
+/* Offer Костина Версия */
+
+
+.offer {
+    display: flex;
+    background: #4FCC97;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.que_one {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 88px;
+
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.que_two {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 88px;
+    font-style: bold;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.baton {
+    background: #EF5B63;
+    border-radius: 10px;
+    width: 182px;
+    height: 50px;
+    margin-left: 30px;
+
+    border: none;
+    outline: none;
+
+    font-style: normal;
+    color: #FFFFFF;
+    margin-top: 40px;
+
+}
+
+.info_offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 35px;
+}
+
+.img {
+    background-image: url("./img/blob.png");
+}
+
+
+/* Зарплаты. */
+
+.salary_box {
+    margin: 100px;
+}
+
+.header_salary {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+.cards_salary {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Карточка ДЖУНА !!!!!!!!!!!!!! */
+
+.junior {
+    width: 400px;
+    height: 350px;
+    left: 255px;
+    top: 2304px;
+
+    background: #ffffff;
+    border-radius: 20px;
+    border: solid 3px #4FCC97;
+    background-image: url("./img/Salary/MaskGroup.svg");
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.info_jun {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job_title_j {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #4FCC97;
+}
+
+.experience_j {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.earn_info {
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #333333;
+}
+
+.dollars_one {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+.month {
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #333333;
+}
+
+
+
+/* Карта МИДЛА */
+
+.info_mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle {
+    width: 400px;
+    height: 350px;
+    left: 255px;
+    top: 2304px;
+
+    background: #ffffff;
+    border-radius: 20px;
+    border: solid 2px #55CBDC;
+    background-image: url("./img/Salary/Green.svg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.job_title_m {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #55CBDC;
+}
+
+
+
+
+/* Карта Сеньёра */
+
+.info_sen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.senior {
+    width: 400px;
+    height: 350px;
+    left: 255px;
+    top: 2304px;
+
+    background: #ffffff;
+
+
+    border-radius: 20px;
+    border: solid 2px #EF5B63;
+    background-image: url("./img/Salary/Red.svg");
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.job_title_s {
+    font-family: var(---primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #EF5B63;
+}
+
+
+@media screen and (max-width: 876px) {
+    .desktop {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .mobile-container {
+        display: block;
+
+    }
+
+    .mobile-header-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .mobile-hero-background {
+        background-image: url("img/mobile-blob.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 65vh;
+        text-align: center;
+        color: var(--text-color-general);
+    }
+    
+    .additional-heading {
+        font-family: var(---secondary-font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 80px!important;
+        margin-top: 10px;
+    }
+
+    .mobile-h1 {
+        font-family: var(---primary-font-family);
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 48px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    .heading-button {
+        margin-top: 25px;
+        background-color: var(--elements-color-bright);
+        padding: 12px 43px;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        font-family: var(---secondary-font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 10px;
+        text-transform: uppercase;
+
+    }
+
+    .video-play-button {
+        margin-top: 30px;
+        background-color: #4FCC97;
+        padding: 12px 16px;
+        border-radius: 50%;
+        border: none;
+        color: #fff;
+        font-family: var(---secondary-font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 10px;
+        text-transform: uppercase;
+
+    }
+
+    .explanatory-text {
+        font-family: var(---secondary-font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .courses-section-mobile {
+        font-family: var(---primary-font-family);
+        color: var(--text-color-general);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .tabs-flex-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tab-column-1 {
+        flex: 33%;
+    }
+
+    .tab-column-2 {
+        flex: 33%;
+    }
+
+    .tab-column-3 {
+        flex: 33%;
+    }
+
+    .tab-button {
+        width: 95%;
+        border: 1px solid var(--text-color-general);
+        border-radius: 10px;
+        background-color: transparent;
+        color: var(--text-color-general);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .tab-button:hover {
+        width: 95%;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--elements-color-bright);
+        color: var(--text-color-light-headings);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .single-card {
+        background: var(--text-color-headings);
+        background-image: url('img/semi-transparent-bg.png');
+        margin-top: 20px;
+        margin: 15px auto;
+        display: block;
+        padding: 15px;
+        width: 90%;
+        height: 180px;
+        color: var(--text-color-light-headings);
+        border-radius: 20px;
+    }
+
+    .card-description-text {
+        font-family: var(---secondary-font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .h2-mobile-light {
+        margin-top: 65px;
+        font-family: var(---primary-font-family);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .single-card:hover {
+        background: #55CBDC;
+        background-image: none;
+    }
+
+    .cards-general-title {
+        font-family: var(---primary-font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .cards-general-title span {
+        color: #4FCC97;
+    }
+
+    .green-banner-mobile {
+        background: #4FCC97;
+        margin-top: 20px;
+        margin: 15px auto;
+        display: block;
+        padding: 15px;
+        width: 90%;
+        height: 332px;
+        color: var(--text-color-light-headings);
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .green-banner-heading {
+        font-family: var(---primary-font-family);
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    .green-banner-text {
+        font-family: var(---secondary-font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+
+
+    }
+
+    .h2-mobile {
+        font-family: var(---primary-font-family);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+ }
